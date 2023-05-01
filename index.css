@@ -1,0 +1,240 @@
+#Tools {
+    background-color: bisque;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 19px;
+    text-align: center;
+    padding-top: 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+#infoBTN{
+    background-color: bisque;
+    border-radius: 50%;
+    width: 65px;
+    left: 120px;
+    height: 65px;
+    position: absolute;
+    text-align: center;
+    padding-top: 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    
+
+}
+#Scolor{
+    display: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#zoomTitle{
+    font-size: 35px;
+    color: darkgreen;
+    font-family: system-ui;
+    margin-bottom: 1px;
+}
+#infoModal {
+    display: none;
+    background-color: lightblue;
+    background-image: url('./board.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    position: absolute;
+    width: 70vw;
+    padding: 15px;
+    left: 15vw;
+    border-radius: 15px;
+    border: 1px black solid;
+    top: 46px;
+    font-family: monospace;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#infoModal p, #infoModal a {
+    font-size: 18px;
+    margin: 0;
+    color: lightblue;
+}
+#infoModal p{
+    color: gainsboro;
+}
+#infoModal h3{
+    font-size: 22px;
+    color: #5c80e4;
+}
+#infoModal div img {
+    width: 220px ;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid seashell;
+    padding: 5px;
+}
+#sec1{
+    margin-top: 15px;
+}
+
+#Tools p {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: fantasy;
+}
+#WraperInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec3{
+    text-align: left;
+    margin-bottom: 35px;
+}
+#infoModal a:hover {
+    color: lightgoldenrodyellow;
+}
+
+#Tools:hover,#infoBTN:hover{
+    background-color: gold;
+}
+#Tools p,#infoBTN p {
+    font-size: 55px;
+    margin: 0;
+    font-weight: 900;
+    color: darkgreen;
+
+}
+#infoBTN p{
+}
+h1{
+    color: darkgreen;
+}
+#ModalTool {
+    height: 80vh;
+    background-color: beige;
+    border-radius: 15px;
+    border: 1px solid blue;
+    width: 17vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    font-size: 20px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#TollWrap p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ModalTool input,#ModalTool select {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: beige;
+    width: 60%; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+
+
+}
+#ModalTool button,#DownloadBTN {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: lightgreen;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#DownloadBTN{
+    display: none;
+}
+
+
+#ModalTool .reset{
+    background-color: lightcoral;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+#TollWrap button:hover,#DownloadBTN:hover{
+    background-color: lightgoldenrodyellow;
+    border: 1px black solid;
+}
+#Closemodal {
+    font-family: system-ui;
+    margin: 0;
+    /* text-align: left; */
+    position: absolute;
+    left: 22px;
+    cursor: pointer;
+    /* padding: 5px; */
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 28px;
+    text-align: center;
+    height: 25px;
+    padding-bottom: 6px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#closemodal2 {
+    font-family: system-ui;
+    margin: 0;
+    /* text-align: left; */
+    position: absolute;
+    left: 22px;
+    cursor: pointer;
+    /* padding: 5px; */
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 28px;
+    background-color: lightpink;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#Closemodal:hover,#closemodal2:hover{
+    color: lightcoral;
+}
+#TollWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Colorss{
+    margin-top: 20px;
+}
+#StartBtn {
+    position: absolute;
+    bottom: 6px;
+    width: 90%;
+    font-weight: 800;
+}
+#animateBTN {
+    position: absolute;
+    bottom: 56px;
+    width: 90%;
+    font-weight: 800;
+}
+
+#wrapradio p {
+margin: 0;}
+
+#ModalTool #wrapradio input {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: beige;
+    width: 50px;
+    box-shadow: none;
+}
